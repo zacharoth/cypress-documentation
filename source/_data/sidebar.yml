@@ -49,6 +49,12 @@ guides:
 api:
   introduction:
     api: api.html
+  events:
+    catalog-of-events: catalog-of-events.html
+    on: on.html
+    once: once.html
+    removelistener: removelistener.html
+    removealllisteners: removealllisteners.html
   commands:
     and: and.html
     as: as.html
@@ -129,27 +135,92 @@ api:
     within: within.html
     wrap: wrap.html
     writefile: writefile.html
-  events:
-    catalog-of-events: catalog-of-events.html
-    on: on.html
-    once: once.html
-    removelistener: removelistener.html
-    removealllisteners: removealllisteners.html
-  utilities:
+  # libraries:
+  #   _: _.html
+  #   $: $.html
+  #   blob: blob.html
+  #   minimatch: minimatch.html
+  #   moment: moment.html
+  #   promise: promise.html
+  # cypress-api:
+  #   config: config.html
+  #   cookies: cookies.html
+  #   env: env.html
+  #   cypress-server: cypress-server.html
+
+utilities:
+  overview-of-utilities:
+    about: about.html
+  cypress:
     _: _.html
     $: $.html
     blob: blob.html
+    config: config.html
+    cookies: cookies.html
+    env: env.html
+    cypress-log: cypress-log.html
     minimatch: minimatch.html
     moment: moment.html
     promise: promise.html
-  cypress-api:
-    custom-commands: custom-commands.html
-    config: config.html
-    cookies: cookies.html
-    dom: dom.html
-    env: env.html
-    cypress-log: cypress-log.html
     cypress-server: cypress-server.html
+  commands:
+    add: add.html
+    overwrite: overwrite.html
+  dom:
+    # getElements: getelements.html
+    # getFirstFixedOrStickyPositionParent: getfirstfixedorstickypositionparent.html
+    # getFirstScrollableParent: getfirstscrollableparent.html
+    # getReasonIsHidden: getreasonishidden.html
+    # isDescendent: isdescendent.html
+    # isDetached: isdetached.html
+    # isDocument: isdocument.html
+    # isDom: isdom.html
+    # isElement: iselement.html
+    isHidden: ishidden.html
+    # isJquery: isjquery.html
+    # isScrollable: isscrollable.html
+    # isSelector: isselector.html
+    # isTextLike: istextlike.html
+    # isType: istype.html
+    # isVisible: isvisible.html
+    # isWindow: iswindow.html
+    # positionProps: positionprops.html
+    # unwrap: unwrap.html
+    # wrap: wrap.html
+  # cy-functions:
+  #   addAlias: addalias.html
+  #   aliasNotFoundFor: aliasnotfoundfor.html
+  #   clearTimeout: cleartimeout.html
+  #   ensureAttached: ensureattached.html
+  #   ensureDescendents: ensuredescendents.html
+  #   ensureDocument: ensuredocument.html
+  #   ensureElement: ensureelement.html
+  #   ensureElementIsNotAnimating: ensureelementisnotanimating.html
+  #   ensureElExistence: ensureelexistence.html
+  #   ensureExistence: ensureexistence.html
+  #   ensureReceivability: ensurereceivability.html
+  #   ensureScrollability: ensurescrollability.html
+  #   ensureValidPosition: ensurevalidposition.html
+  #   ensureVisibility: ensurevisibility.html
+  #   ensureWindow: ensurewindow.html
+  #   getAbsoluteCoordinates: getabsolutecoordinates.html
+  #   getAbsoluteCoordinatesRelativeToXY: getabsolutecoordinatesrelativetoxy.html
+  #   getAlias: getalias.html
+  #   getElementAtCoordinates: getelementatcoordinates.html
+  #   getIndexedXhrByAlias: getindexedxhrbyalias.html
+  #   getNextAlias: getnextalias.html
+  #   getRemoteLocation: getremotelocation.html
+  #   getRequestsByAlias: getrequestsbyalias.html
+  #   getXhrTypeByAlias: getxhrtypebyalias.html
+  #   isCy: iscy.html
+  #   isStopped: isstopped.html
+  #   queue: queue.html
+  #   retry: retry.html
+  #   state: state.html
+  #   subject: subject.html
+  #   timeout: timeout.html
+  #   validateAlias: validatealias.html
+  #   verifyUpcomingAssertions: verifyupcomingassertions.html
 
 examples:
   recipes:

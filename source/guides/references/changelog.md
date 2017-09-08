@@ -818,7 +818,7 @@ Fixed {% url "`.type()`" type %} not firing `input` event for {% url "React" htt
 **Bugfixes:**
 
 - When an integration test file is unable to run and the `integrationFolder` is not the default path, the UI error now properly prints the integration test file's path by stripping off `integration` in the path. Fixes {% issue 117 '#117' %}.
-- {% url `Cypress.Dom.isHidden()` dom#Is-Hidden %} will now throw error when it isn't passed a DOM element.
+- {% url `Cypress.Dom.isHidden()` isHidden %} will now throw error when it isn't passed a DOM element.
 
 **Misc:**
 
@@ -1065,7 +1065,7 @@ Known Issues:
 - Overhauled the entire subsystem dealing with an element's visibility state. Previously we were simply using jQuery's `.is(":visible")` selector which was ineffective at truly determining when an element is "visible". Our changes now differ significantly from jQuery, but they match what a real user would consider visible, and the rules are fairly easy to explain. In other words these rules should just "make sense".
 - An element is considered visible if it can be "interactive" with a user. In other words, if the user is able to click, type, drag, or otherwise physically interact with the element it is considered visible.
 - Because of the additional complexities of how Cypress considers an element `visible`, we now have added the **exact** reason why an element is not visible when throwing an error. This means you'll see errors detailing whether an element or its parents have `display: none`, `visibility: hidden`, or whether an element is considered hidden because its effective `width` or `height` is zero. Whatever the reason, Cypress will indicate why your element is considered hidden.
-- Exposed {% url `Cypress.Dom.isHidden` dom %} which holds the logic for determining an element's visibility. Modify this to change the rules.
+- Exposed {% url `Cypress.Dom.isHidden` isHidden %} which holds the logic for determining an element's visibility. Modify this to change the rules.
 - Upgraded {% url `.select()` select %} to automatically retry when the `<select>` is disabled, its matching `<option>` is disabled, or when Cypress cannot find a matching `<option>`. This more correctly aligns with the behavior of other actions like {% url `.click()` click %}, which automatically retry until the element is ready to receive the action.
 
 **Bugfixes:**

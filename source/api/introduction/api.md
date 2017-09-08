@@ -3,15 +3,17 @@ title: API
 comments: false
 ---
 
+The API is used to drive tests within Cypress. For extending Cypress see {% url "Utilities" utilities %}.
+
 # Sections
 
-- **{% url 'Commands:' and %}** Drive your tests in the browser like a real user would. They let you perform actions like typing, clicking, xhr requests, and can also assert things like "my button should be disabled".
+- **{% url 'Commands:' add %}** Drive your tests in the browser like a real user would. They let you perform actions like typing, clicking, xhr requests, and can also assert things like "my button should be disabled".
 
 - **{% url 'Events:' catalog-of-events %}** See a list of Cypress events that are fired and the accompanying methods used to listen to and remove those events.
 
-- **{% url 'Utilities:' _ %}** Access methods from other commonly used libraries.
+- **{% url 'Libraries:' _ %}** Access methods from other commonly used libraries.
 
-- **{% url 'Cypress API:' custom-commands %}** Configure the behavior of how Cypress works internally. You can do things like access Environment Variables, change configuration, create custom commands, and more.
+- **{% url 'Cypress API:' config %}** Configure the behavior of how Cypress works internally. You can do things like access Environment Variables, change configuration, create custom commands, and more.
 
 # Rules
 
@@ -24,7 +26,6 @@ Each document attempts to cover the essentials of each method including:
   - **Arguments:** Definition of arguments including types accepted.
 
   - **Yields:** What is yielded (and in rare cases, returned) from the method.
-
 
 **Examples:** Real world examples of using the methods.
 

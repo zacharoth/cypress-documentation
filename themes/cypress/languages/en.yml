@@ -1,6 +1,7 @@
 menu:
   guides: Guides
   api: API
+  utilities: Utilities
   faq: FAQ
   examples: Examples
   dashboard: Dashboard
@@ -153,21 +154,79 @@ sidebar:
     once: once
     removelistener: removeListener
     removealllisteners: removeAllListeners
-    utilities: Utilities
+  utilities:
+    overview-of-utilities: Overview
+    about: About Utilities
+    cypress: Cypress
     _: _
     $: $
+    blob: Blob
+    config: config
+    cookies: Cookies
+    env: env
+    cypress-log: log
     minimatch: minimatch
     moment: moment
-    blob: Blob
     promise: Promise
-    cypress-api: Cypress API
-    config: config
-    env: env
-    custom-commands: Commands
-    cookies: Cookies
-    dom: dom
-    cypress-log: Log
     cypress-server: Server
+    commands: Cypress.Commands
+    add: add
+    overwrite: overwrite
+    dom: Cypress.dom
+    getElements: getElements
+    getFirstFixedOrStickyPositionParent: getFirstFixedOrStickyPositionParent
+    getFirstScrollableParent: getFirstScrollableParent
+    getReasonIsHidden: getReasonIsHidden
+    isDescendent: isDescendent
+    isDetached: isDetached
+    isDocument: isDocument
+    isDom: isDom
+    isElement: isElement
+    isHidden: isHidden
+    isJquery: isJquery
+    isScrollable: isScrollable
+    isSelector: isSelector
+    isTextLike: isTextLike
+    isType: isType
+    isVisible: isVisible
+    isWindow: isWindow
+    positionProps: positionProps
+    unwrap: unwrap
+    wrap: wrap
+    cy-functions: cy
+    addAlias: addAlias
+    aliasNotFoundFor: aliasNotFoundFor
+    clearTimeout: clearTimeout
+    ensureAttached: ensureAttached
+    ensureDescendents: ensureDescendents
+    ensureDocument: ensureDocument
+    ensureElement: ensureElement
+    ensureElementIsNotAnimating: ensureElementIsNotAnimating
+    ensureElExistence: ensureElExistence
+    ensureExistence: ensureExistence
+    ensureReceivability: ensureReceivability
+    ensureScrollability: ensureScrollability
+    ensureValidPosition: ensureValidPosition
+    ensureVisibility: ensureVisibility
+    ensureWindow: ensureWindow
+    getAbsoluteCoordinates: getAbsoluteCoordinates
+    getAbsoluteCoordinatesRelativeToXY: getAbsoluteCoordinatesRelativeToXY
+    getAlias: getAlias
+    getElementAtCoordinates: getElementAtCoordinates
+    getIndexedXhrByAlias: getIndexedXhrByAlias
+    getNextAlias: getNextAlias
+    getRemoteLocation: getRemoteLocation
+    getRequestsByAlias: getRequestsByAlias
+    getXhrTypeByAlias: getXhrTypeByAlias
+    isCy: isCy
+    isStopped: isStopped
+    queue: queue
+    retry: retry
+    state: state
+    subject: subject
+    timeout: timeout
+    validateAlias: validateAlias
+    verifyUpcomingAssertions: verifyUpcomingAssertions
   examples:
     recipes: Recipes
     unit-testing-recipe: Unit Testing

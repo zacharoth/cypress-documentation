@@ -1,5 +1,5 @@
 ---
-title: Custom Commands
+title: Cypress.Commands.add
 comments: false
 ---
 
@@ -14,8 +14,6 @@ A great place to define or overwrite commands is in your `cypress/support/comman
 ```javascript
 Cypress.Commands.add(name, callbackFn)
 Cypress.Commands.add(name, options, callbackFn)
-Cypress.Commands.overwrite(name, callbackFn)
-Cypress.Commands.overwrite(name, options, callbackFn)
 ```
 
 ## Usage
@@ -27,14 +25,11 @@ Cypress.Commands.add('login', (email, pw) => {})
 Cypress.Commands.overwrite('visit', (orig, url, options) => {})
 ```
 
-**{% fa fa-exclamation-triangle red %} Incorrect Usage**
-
-```javascript
-Cypress.add('login', (email, pw) => {})  // Errors, cannot be chained off 'Cypress'
-cy.overwrite('visit', (orig, url, options) => {})  // Errors, cannot be chained off 'cy'
-```
-
 ## Arguments
+
+**{% fa fa-angle-right %} name** ***(string)***
+
+Name of command.
 
 **{% fa fa-angle-right %} callbackFn** ***(Function)***
 
@@ -213,17 +208,7 @@ Cypress.Commands.add('swipe', {prevSubject: 'optional'}, function(subject, arg1,
 })
 ```
 
-## Overwrite Existing Command
-
-You can modify the logic of existing Cypress commands or previously defined custom commands.
-
-```javascript
-Cypress.Commands.overwrite('visit', function(orig, url, options){
-  // modify url or options here...
-  return orig(url, options)
-})
-```
-
 # See also
 
+- {% url 'Cypress.Commands.overwrite' overwrite %}
 - {% url 'Recipe: Logging In' logging-in-recipe %}

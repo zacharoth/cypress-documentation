@@ -35,4 +35,4 @@ Pass in an options object to `Cypress.Log`.
 
 # See also
 
-- {% url `Commands` custom-commands %}
+- {% url `Cypress.Commands.add` add %}

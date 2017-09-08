@@ -1,7 +1,9 @@
 ---
-title: Cypress.dom
+title: Cypress.dom.isHidden()
 comments: false
 ---
+
+
 
 `Cypress.dom.isHidden()` allows you to work with logic that determines whether an element is hidden.
 

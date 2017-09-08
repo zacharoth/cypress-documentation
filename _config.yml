@@ -68,6 +68,7 @@ alias:
   docs/wait/: api/commands/wait.html
   why-cypress/: guides/getting-started/why-cypress.html
   guides.html/: guides/getting-started/why-cypress.html
+  utilities/: utilities/overview-of-utilities/about.html
   guides/references/type/: api/commands/type.html
   docs/launching-browsers/: guides/core-concepts/launching-browsers.html
   guides/integrating-cypress/features.html/: guides/guides/continuous-integration.html
@@ -75,7 +76,8 @@ alias:
 
 # Include/Exclude Files/Folders
 include:
-  - api/utilities/** ## This ensures that our '_.md' file is included
+  - api/libraries/** ## This ensures that our '_.md' file is included
+  - utilities/cypress/** ## This ensures that our '_.md' file is included
 
 # Writing
 new_post_name: :title.md # File name of new posts
