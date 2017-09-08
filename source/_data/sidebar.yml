@@ -167,60 +167,60 @@ utilities:
     add: add.html
     overwrite: overwrite.html
   dom:
-    # getElements: getelements.html
-    # getFirstFixedOrStickyPositionParent: getfirstfixedorstickypositionparent.html
-    # getFirstScrollableParent: getfirstscrollableparent.html
-    # getReasonIsHidden: getreasonishidden.html
-    # isDescendent: isdescendent.html
-    # isDetached: isdetached.html
-    # isDocument: isdocument.html
-    # isDom: isdom.html
-    # isElement: iselement.html
+    getElements: getelements.html
+    getFirstFixedOrStickyPositionParent: getfirstfixedorstickypositionparent.html
+    getFirstScrollableParent: getfirstscrollableparent.html
+    getReasonIsHidden: getreasonishidden.html
+    isDescendent: isdescendent.html
+    isDetached: isdetached.html
+    isDocument: isdocument.html
+    isDom: isdom.html
+    isElement: iselement.html
     isHidden: ishidden.html
-    # isJquery: isjquery.html
-    # isScrollable: isscrollable.html
-    # isSelector: isselector.html
-    # isTextLike: istextlike.html
-    # isType: istype.html
-    # isVisible: isvisible.html
-    # isWindow: iswindow.html
-    # positionProps: positionprops.html
-    # unwrap: unwrap.html
-    # wrap: wrap.html
-  # cy-functions:
-  #   addAlias: addalias.html
-  #   aliasNotFoundFor: aliasnotfoundfor.html
-  #   clearTimeout: cleartimeout.html
-  #   ensureAttached: ensureattached.html
-  #   ensureDescendents: ensuredescendents.html
-  #   ensureDocument: ensuredocument.html
-  #   ensureElement: ensureelement.html
-  #   ensureElementIsNotAnimating: ensureelementisnotanimating.html
-  #   ensureElExistence: ensureelexistence.html
-  #   ensureExistence: ensureexistence.html
-  #   ensureReceivability: ensurereceivability.html
-  #   ensureScrollability: ensurescrollability.html
-  #   ensureValidPosition: ensurevalidposition.html
-  #   ensureVisibility: ensurevisibility.html
-  #   ensureWindow: ensurewindow.html
-  #   getAbsoluteCoordinates: getabsolutecoordinates.html
-  #   getAbsoluteCoordinatesRelativeToXY: getabsolutecoordinatesrelativetoxy.html
-  #   getAlias: getalias.html
-  #   getElementAtCoordinates: getelementatcoordinates.html
-  #   getIndexedXhrByAlias: getindexedxhrbyalias.html
-  #   getNextAlias: getnextalias.html
-  #   getRemoteLocation: getremotelocation.html
-  #   getRequestsByAlias: getrequestsbyalias.html
-  #   getXhrTypeByAlias: getxhrtypebyalias.html
-  #   isCy: iscy.html
-  #   isStopped: isstopped.html
-  #   queue: queue.html
-  #   retry: retry.html
-  #   state: state.html
-  #   subject: subject.html
-  #   timeout: timeout.html
-  #   validateAlias: validatealias.html
-  #   verifyUpcomingAssertions: verifyupcomingassertions.html
+    isJquery: isjquery.html
+    isScrollable: isscrollable.html
+    isSelector: isselector.html
+    isTextLike: istextlike.html
+    isType: istype.html
+    isVisible: isvisible.html
+    isWindow: iswindow.html
+    positionProps: positionprops.html
+    unwrap: unwrap.html
+    wrap: wrap.html
+  cy-functions:
+    addAlias: addalias.html
+    aliasNotFoundFor: aliasnotfoundfor.html
+    clearTimeout: cleartimeout.html
+    ensureAttached: ensureattached.html
+    ensureDescendents: ensuredescendents.html
+    ensureDocument: ensuredocument.html
+    ensureElement: ensureelement.html
+    ensureElementIsNotAnimating: ensureelementisnotanimating.html
+    ensureElExistence: ensureelexistence.html
+    ensureExistence: ensureexistence.html
+    ensureReceivability: ensurereceivability.html
+    ensureScrollability: ensurescrollability.html
+    ensureValidPosition: ensurevalidposition.html
+    ensureVisibility: ensurevisibility.html
+    ensureWindow: ensurewindow.html
+    getAbsoluteCoordinates: getabsolutecoordinates.html
+    getAbsoluteCoordinatesRelativeToXY: getabsolutecoordinatesrelativetoxy.html
+    getAlias: getalias.html
+    getElementAtCoordinates: getelementatcoordinates.html
+    getIndexedXhrByAlias: getindexedxhrbyalias.html
+    getNextAlias: getnextalias.html
+    getRemoteLocation: getremotelocation.html
+    getRequestsByAlias: getrequestsbyalias.html
+    getXhrTypeByAlias: getxhrtypebyalias.html
+    isCy: iscy.html
+    isStopped: isstopped.html
+    queue: queue.html
+    retry: retry.html
+    state: state.html
+    subject: subject.html
+    timeout: timeout.html
+    validateAlias: validatealias.html
+    verifyUpcomingAssertions: verifyupcomingassertions.html
 
 examples:
   recipes:
